@@ -363,6 +363,13 @@ div.sec20 {
     margin-bottom: 1rem;
 }
 
+div.sec20 h1,
+div.sec20 h2,
+div.sec20 h3,
+div.sec20 p {
+    display: unset
+}
+
 div.sec20 h4 {
     text-transform: uppercase;
     font-family: 'Anton', sans-serif;
@@ -370,9 +377,17 @@ div.sec20 h4 {
     font-weight: 500;
 }
 
+div.sec20 p {
+    text-transform: uppercase;
+}
+
 div.sec22,
 div.sec24 {
     margin-top: 3rem;
+}
+
+.container.cont7 {
+    padding-bottom: 0;
 }
 
 div.sec25 img {
@@ -386,5 +401,10 @@ div.sec26 h2 {
 
 div.sec27 p {
     color: #000;
-    font-size: 
+    text-align: center;
+    padding: 15px;
+}
+
+div.col-md-6.sec28 {
+    max-width: 100%;
 }
