@@ -134,7 +134,7 @@ div.sec2 p {
 
 a:hover {
     text-decoration: none;
-    color: #fefefe;
+    color: unset;
 }
 
 div.container.cont2 {
@@ -408,23 +408,6 @@ div.sec20 p {
     margin-top: 60px;
     padding-left: 0;
 }
-
-/* div.sec20 p.p1 {
-    text-align: left;
-}
-
-div.sec20 p.p2 {
-    padding-left: 175px;
-}
-
-div.sec20 p.p3 {
-    padding-left: 20px;
-}
-
-div.sec20 p.p4 {
-    text-align: right;
-    padding-left: 60px;
-} */
 
 div.sec22,
 div.sec24 {
