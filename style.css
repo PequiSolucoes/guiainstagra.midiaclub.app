@@ -1,0 +1,390 @@
+/*!
+ * Guia Instagram v0.0.1 (https://guiainstagram.midiaclub.app/)
+ * Copyright 2019-2019 Equipe MIDIA CLUP APP
+ * Copyright 2014-2019 PEQUI Soluções.
+ */
+
+@viewport{
+    zoom: 1.0;
+    width: device-width;
+}
+    
+@-ms-viewport {
+width: device-width; 
+}
+  
+*::before,
+*::after {
+box-sizing: border-box; 
+}
+  
+html {
+font-family: sans-serif;
+line-height: 1.15;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-ms-overflow-style: scrollbar;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+}
+  
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block; 
+}
+  
+body {
+margin: 0;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 1rem;
+font-weight: 200;
+line-height: 1.5;
+color: #FFF;
+text-align: left;
+background-color: #000;
+overflow-x: hidden;
+min-width: 100%; 
+}
+
+[tabindex="-1"]:focus {
+outline: 0 !important; 
+}
+  
+@import url('https://fonts.googleapis.com/css?family=Anton|Federo|Source+Sans+Pro&display=swap');
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+h1 span,
+div.sec20 h4 span {
+    color: #FE4561;
+}
+
+.img-bg {
+    background-size: cover;
+    background-repeat: repeat;
+    background-image: url(img/bg.jpg);
+}
+
+.txt-golden {
+    color: #c89a00;
+}
+div.sec1,
+div.sec3,
+div.sec3 h2,
+div.sec4,
+div.sec17,
+div.sec24,
+div.sec26 {
+    text-align: center;
+}
+
+div.sec1 h1 {
+    margin-top: 1rem;
+}
+
+div.sec2 {
+    position: relative;
+    max-width: 740px;
+    text-align: center;
+    padding: 7px;
+    position: relative;
+    background: #a89a1e;
+    background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+    margin-top: 1rem;
+    margin-bottom: 12rem;
+}
+
+.sec2a {
+    background: #000;
+    color: white;
+    padding: 2rem;
+}
+
+div.sec2 p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.btn-golden-grad {
+    display: inline-block;
+    font-weight: bold;
+    border: none;
+    padding: 0.375rem 1rem;
+    font-size: 1rem;
+    background: #a89a1e;
+    background: -moz-linear-gradient(left, #a89a1e 0%, #f9d000 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #a89a1e), color-stop(100%, #f9d000));
+    background: -webkit-linear-gradient(left, #a89a1e 0%, #f9d000 100%);
+    background: -o-linear-gradient(left, #a89a1e 0%, #f9d000 100%);
+    background: -ms-linear-gradient(left, #a89a1e 0%, #f9d000 100%);
+    background: linear-gradient(to right, #a89a1e 0%, #f9d000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a89a1e', endColorstr='#f9d000', GradientType=1 );
+    color: #fff;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    border-radius: 50px;
+    min-width: 300px;
+    text-shadow: 1px 2px 3px #000;
+    margin-top: 1.5rem;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fefefe;
+}
+
+div.container.cont2 {
+    margin-top: -8rem;
+}
+
+div.sec4 h2 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+div.sec4 ul {
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+.list-group-flush .list-group-item {
+    background-color: transparent;
+    text-align: left;
+}
+
+.fa-chevron-circle-right:before {
+    background-color: white;
+    border-radius: 50%;
+}
+
+.i-fa-mag {
+    color: #FE4561!important;
+}
+
+div.sec4 h2,
+div.sec5 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-weight: 500;
+    max-width: 525px;
+}
+
+div.sec6 h2,
+div.sec17 h2 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 500;
+}
+
+div.sec6 h2 span,
+div.sec17 h2 span,
+div.sec19 h1 span {
+    color: #FE4561;
+    background: #FFF;
+    background: -moz-linear-gradient(270deg, #FFF 40%, #000 0%);
+    background: -webkit-linear-gradient(270deg, #FFF 40%, #000 0%);
+    background: -o-linear-gradient(270deg, #FFF 40%, #000 0%);
+    background: -ms-linear-gradient(270deg, #FFF 40%, #000 0%);
+    background: linear-gradient(0deg, #FFF 40%, #000 0%);
+}
+
+div.container.cont3 p {
+    margin: 0;
+}
+
+div.sec7 {
+    padding-top: 5rem;
+    text-align: end;
+}
+
+div.sec7 h3,
+div.sec10 h3,
+div.sec11 h3,
+div.sec14 h3,
+div.sec15 h3,
+div.sec17 h2,
+.container.cont4 h3,
+.container.cont5 h2,
+.container.cont6 h2,
+div.sec22 h3 {
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-weight: 500;
+    color: #c89a00;
+}
+
+div.sec7 p span,
+div.sec10 p span,
+div.sec11 p span,
+div.sec14 p span,
+div.sec15 p span {
+    color: #c89a00;
+}
+
+div.sec8 .first {
+    margin-top: 11rem;
+}
+
+div.sec11,
+div.sec15,
+div.sec22 {
+    text-align: end;
+}
+
+.l-1, .l-3, .l-5, .l-7 {
+    margin-top: -4px;
+}
+
+.l-2 {
+    margin-top: 2px;
+}
+
+.l-4 {
+    margin-top: -16px;
+}
+
+.l-6 {
+    margin-top: -22px;
+}
+
+.l-8 {
+    margin-top: 2px;
+}
+
+div.sec17 {
+    margin-top: 4rem;
+}
+
+div.sec18 {
+    margin-top: 3rem;
+}
+
+hr {
+    border-top: 3px solid #FFF;
+    width: 250px;
+    margin-left: 0;
+}
+
+.container.cont4 p {
+    font-size: 1.25rem;
+}
+
+.container.cont4 {
+    margin-bottom: 5rem;
+}
+
+.container.cont5,
+.container.cont7 {
+    background: #FFF;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.container.cont5 h2,
+div.sec20 h4 {
+    text-shadow: 3px 0px 6px rgba(0, 0, 0, 0.4);
+}
+.container.cont5 h3 {
+    color: #FE4462;
+    text-align: center;
+    text-shadow: 3px 0px 6px rgba(254, 68, 98, 0.62);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.container.cont5 p {
+    color: #404040;
+}
+
+.container.cont5 .vertical {
+    border-right: 3px solid #FE4561;
+}
+
+.container.cont6 {
+    margin-bottom: 23rem;
+}
+
+div.sec19,
+div.sec21 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+div.sec19 p {
+    margin-bottom: 1.5rem;
+}
+
+div.sec19 h1 {
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #F4425D;
+}
+
+div.sec19 h1.text-white,
+div.sec22 h3.text-white {
+    margin-top: 1.5rem;
+}
+
+div.sec19 del {
+    text-decoration: none;
+    position: relative;
+
+}
+
+div.sec19 del:before {
+    content: " ";
+    display: block;
+    width: 100%;
+    border-top: 4px solid #FFF;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: rotate(-11deg);
+}
+
+div.sec20 {
+    position: relative;
+    max-width: 700px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 22px;
+    position: relative;
+    background: #FFF;
+    color: #000;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+div.sec20 h4 {
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.563rem;
+    font-weight: 500;
+}
+
+div.sec22,
+div.sec24 {
+    margin-top: 3rem;
+}
+
+div.sec25 img {
+    margin-top: -24rem;
+}
+
+div.sec26 h2 {
+    font-family: 'Federo', sans-serif;
+    color: #F4425D;
+}
+
+div.sec27 p {
+    color: #000;
+    font-size: 
+}
