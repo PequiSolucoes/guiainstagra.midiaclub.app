@@ -365,9 +365,27 @@ div.sec20 {
 
 div.sec20 h1,
 div.sec20 h2,
-div.sec20 h3,
-div.sec20 p {
-    display: unset
+div.sec20 h3 {
+    display: unset;
+    text-shadow: 3px 0px 6px rgba(0, 0, 0, 0.4);
+}
+
+div.sec20 h1 {
+    font-size: 6rem;
+    /* margin-top: 1rem;
+    margin-right: 1rem; */
+}
+
+div.sec20 h2 {
+    font-size: 4rem;
+    color: #000!important;
+}
+
+div.sec20 h3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 50px;
 }
 
 div.sec20 h4 {
@@ -378,8 +396,35 @@ div.sec20 h4 {
 }
 
 div.sec20 p {
+    /* display: unset; */
     text-transform: uppercase;
 }
+
+.cro1 {
+    margin-top: 35px;
+}
+
+.cro2 {
+    margin-top: 60px;
+    padding-left: 0;
+}
+
+/* div.sec20 p.p1 {
+    text-align: left;
+}
+
+div.sec20 p.p2 {
+    padding-left: 175px;
+}
+
+div.sec20 p.p3 {
+    padding-left: 20px;
+}
+
+div.sec20 p.p4 {
+    text-align: right;
+    padding-left: 60px;
+} */
 
 div.sec22,
 div.sec24 {
