@@ -436,3 +436,11 @@ div.sec27 p {
 div.col-md-6.sec28 {
     max-width: 100%;
 }
+
+@media (min-width:1440px) {
+    div.sec3 {
+        width: 350px;
+        margin-top: 60px;
+        padding-left: 0;
+    }
+}
